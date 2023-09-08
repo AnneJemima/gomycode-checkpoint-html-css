@@ -1,0 +1,92 @@
+/* le corps dela page */
+body{
+    font-family: roboto;
+    text-align: center;
+}
+
+/* la barre de navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Utilisation de class et id sur h1 et P */
+.haut { 
+    font-size: 30px;
+    text-align: center;
+    font-family: roboto;
+}
+
+#contenu {
+    text-align: center;
+}
+
+/* Changez la couleur du lien au survol*/
+li a:hover {
+    background-color: #4ecf12;
+}
+
+/* Ajouter une bordure grise droite à tous les éléments de la liste, à l'exception du dernier élément */
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+/* ajout de style sur le tableau */
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: #4ecf12;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table {
+    width: 100%;
+}
+
+/* bouton */
+button{
+    background-color: #4ecf12;
+    border-radius: 5px;
+    border: 4px double #4ecf12;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+/* images */
+img{
+    width: 200px;
+    transition: transform .1s;
+    }
+    
+    img:hover{
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5);
+        }    
